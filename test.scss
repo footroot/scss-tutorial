@@ -1,0 +1,15 @@
+/* Users\FootRoot\Documents\GitHub\scssTutorial\scss-tutorial */
+
+/* Sass variables start with the $ sign,
+... that's about all that makes it different from LESS sybtax */
+
+$my_color: #BADA55;
+
+nav {
+    a{
+        color: $my_color;
+        &:hover {
+            color: darken($my_color, 10%);
+        }
+    }
+}
